@@ -119,9 +119,9 @@ return myObj
 }
 
 
-// function homeTeamName(){
-//     let object = gameObject()
-//     return object["home"]["teamName"]
-// }
+function homeTeamName(){
+    let object = gameObject()
+    return object["home"]["teamName"]
+}
 
-// console.log(homeTeamName())
+console.log(homeTeamName())
